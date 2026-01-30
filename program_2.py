@@ -13,7 +13,7 @@ def average_age():
     average = total_age / 5
 
     # Print the results
-    print("The average age is:", average)
+    print("The average age of your friends is:", average)
 
 
 # Line which calls the above function.

@@ -10,14 +10,14 @@ def calculate_total_purchase():
     subtotal = item1 + item2 + item3 + item4 + item5
 
     # Calculate sales tax (7%)
-    sales_tax = subtotal * 0.07
+    tax = subtotal * 0.07
 
     # Calculate total
-    total = subtotal + sales_tax
+    total = subtotal + tax
 
     # Display results
     print("Subtotal: $", subtotal)
-    print("Sales Tax: $", sales_tax)
+    print("Sales Tax: $", tax)
     print("Total: $", total)
 
 

@@ -7,14 +7,9 @@ def temp_conversion(celsius):
     # The program should ask the user to enter a temperature in Celsius, then display the temperature converted to Fahrenheit.
 
     # Calculate the Fahrenheit equivalent.
-    fahrenheit = 0.0
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################    
-
-
-    # Return the variable to the calling function
+    fahrenheit = (9 / 5) * celsius + 32
     return fahrenheit
+
 
 #### This piece of the code has been done for you,
 #### you only need to worry about the actual temp 
@@ -26,4 +21,4 @@ if __name__ == '__main__':
     celsius = float(input("Enter a Celsius temperature: "))
     fahrenheit = temp_conversion(celsius)
     # Display the Fahrenheit temperature.
-    print ("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
+    print("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
