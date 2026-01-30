@@ -1,6 +1,7 @@
 def personal_information():
-    print('...')
-
-
+    print('Keefer McGrath')
+    print('St. Anthony, MN, 55418')
+    print('612-859-1132')
+    print('Civil Engineering')
 # Line which calls the above function.
 personal_information()
